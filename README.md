@@ -133,7 +133,7 @@ pipx install kalamine
 
 ```bash
 # Pour générer les pilotes, télécharger le fichier `Bépolar.yml` du répertoire et faites un :
-kalamine Bépolar.yml
+kalamine build Bépolar.yml
 
 # Pour installer la disposition qui appraraitra dans la catégorie Fr/Bépolar en user-space
 xkalamine install Bépolar.yml
