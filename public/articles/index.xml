@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Ergo‑L</title>
+    <link>/articles/</link>
+    <description>Recent content in Articles on Ergo‑L</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 20 May 2024 13:42:00 +0100</lastBuildDate>
+    <atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ergo‑L 1.0.0 est là !!</title>
+      <link>/articles/ergol_1_0_0/</link>
+      <pubDate>Mon, 20 May 2024 13:42:00 +0100</pubDate>
+      <guid>/articles/ergol_1_0_0/</guid>
+      <description>&lt;p&gt;Après plus de quatre ans de travail, Ergo‑L atteint sa forme finale !&#xA;La disposition a reçu beaucoup d’amour et d’attention de la part des&#xA;Ergonautes ces derniers mois, et grâce à eux on a su corriger les&#xA;dernières petites aspérités de la disposition : elle ne comporte&#xA;désormais plus aucun enchaînement courant inconfortable, que ça soit&#xA;dans la couche alphanumérique (en français &lt;em&gt;et&lt;/em&gt; en anglais) comme&#xA;dans la couche de symboles. De plus, la typographie soignée n’a jamais&#xA;été aussi simple à saisir !&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bienvenue chez les Ergonautes !</title>
+      <link>/articles/bienvenue/</link>
+      <pubDate>Mon, 18 Mar 2024 22:01:23 +0100</pubDate>
+      <guid>/articles/bienvenue/</guid>
+      <description>&lt;p&gt;Après plus de quatre ans de travail et avec une version 1.0 en&#xA;approche, il était grand temps de consacrer un site web digne de ce nom&#xA;au projet Ergo‑L !&lt;/p&gt;&#xA;&lt;p&gt;La communauté s’est bien étoffée, avec beaucoup d’activité et de&#xA;bonne humeur sur &lt;a href=&#34;https://discord.gg/5xR5K3nAFX&#34;&gt;le serveur&#xA;Discord&lt;/a&gt; et plein de contributions, tant sur Ergo‑L que sur les « &lt;a&#xA;href=&#34;/alternatives&#34;&gt;layouts cousins&lt;/a&gt; » et les &lt;a&#xA;href=&#34;https://github.com/orgs/OneDeadKey/repositories&#34;&gt;outils&#xA;associés&lt;/a&gt;. On a désormais bien plus qu’une simple disposition de&#xA;clavier à présenter…&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr"
+  dir="ltr">
+
+<head>
+  <title>Analyseur | Ergo‑L</title>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1a1a1f" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f8f8" />
+<meta name="color-scheme" content="light dark">
+<meta property="og:title"        content="Ergo‑L">
+<meta property="og:type"         content="website">
+<meta property="og:url"          content="https://ergol.org">
+<meta property="og:image"        content="/ergol.png">
+<meta property="og:image:type"   content="image/png">
+<meta property="og:image:width"  content="960">
+<meta property="og:image:height" content="360">
+<meta property="og:description"  content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<link type="image/svg+xml"       rel="icon"    href="/favicon.svg"        sizes="any">
+<link type="application/rss+xml" rel=alternate href="/articles/index.xml" title="Ergo‑L">
+
+        <script src="/js/x-keyboard.min.899a68a7b6537775a3824bc86a3379b2e6adb47fda6e58335a870ef312cb4a74.js" integrity="sha256-iZpop7ZTd3WjgkvIajN5suattH/ablgzWocO8xLLSnQ=" crossorigin="anonymous" type="module"></script>
+
+        <script src="/js/collapsable-table.min.b0ae568f7c424782ff70fd0b3c2f5ac4a9b97490c785448bec962642b4ff77c2.js" integrity="sha256-sK5Wj3xCR4L/cP0LPC9axKm5dJDHhUSL7JYmQrT/d8I=" crossorigin="anonymous" type="module"></script>
+
+
+
+        <script src="/js/layout-analyzer.min.863f3eee427806711cc8de930e3fc3465248dde22ab443e96cee01eb1446f171.js" integrity="sha256-hj8&#43;7kJ4BnEcyN6TDj/DRlJI3eIqtEPpbO4B6xRG8XE=" crossorigin="anonymous" type="text/javascript"></script>
+
+        <script src="/js/keebs.min.975fcc3f662ad60a2651f089f720480ce1923dfa2fda5972de75697ff3af8108.js" integrity="sha256-l1/MP2Yq1gomUfCJ9yBIDOGSPfov2lly3nVpf/OvgQg=" crossorigin="anonymous" type="text/javascript"></script>
+
+
+
+      <link rel="stylesheet" href="/css/theme.min.d8e898e509b45a8c42bba882505a97bda0cfab96582b68bcee8c25d55351fab9.css" integrity="sha256-2OiY5Qm0WoxCu6iCUFqXvaDPq5ZYK2i87owl1VNR&#43;rk=" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="/css/heatmap.min.0fd2bb9dc907fc62c7b19bf46934bf7ffa5d91a278b8af01e8b3feb0576606f8.css" integrity="sha256-D9K7nckH/GLHsZv0aTS/f/pdkaJ4uK8B6LP&#43;sFdmBvg=" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <div id="banner">
+  <p class="title"><a href="/">Ergo‑L</a></p>
+  <p>Ergonomie optimisée pour le français, l’anglais, le code.</p>
+</div>
+
+  </header>
+  
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Ergo‑L</a>
+        <ul>
+    <li>
+      <a href="/presentation/">Présentation</a>
+    </li>
+    <li>
+      <a href="/installation/">Installation</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a href="/alternatives/">Alternatives</a>
+        <ul>
+    <li>
+      <a href="/bepo/">Bépo ?</a>
+    </li>
+    <li>
+      <a href="/erglace/">Erglace !</a>
+    </li>
+    <li>
+      <a href="/lafayette/">Lafayette *</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a aria-current="page" class="active" href="/stats/">Analyseur</a>
+    </li>
+    <li>
+      <a href="/glossaire/">Glossaire</a>
+    </li>
+    <li>
+      <a href="/dactylo/">Apprendre</a>
+    </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Analyseur</h1>
+    
+
+  
+<div class="keyboard">
+  <input spellcheck="false" placeholder="" />
+  <x-keyboard></x-keyboard>
+</div>
+
+<div id="sticky-select">
+  <form>
+    
+    
+    
+    <select id="layout">
+      
+        <option disabled>  [en]</option>
+        
+          
+            <option value="ISRT"> ISRT </option>
+          
+        
+          
+            <option value="MTGAP"> MTGAP </option>
+          
+        
+          
+            <option value="colemak"> Colemak </option>
+          
+        
+          
+            <option value="colemak-dh"> Colemak-DH </option>
+          
+        
+          
+            <option value="dvorak"> Dvorak </option>
+          
+        
+          
+            <option value="qwerty"> Qwerty </option>
+          
+        
+          
+            <option value="sturdy"> Sturdy </option>
+          
+        
+          
+            <option value="workman"> Workman </option>
+          
+        
+      
+        <option disabled>  [fr]</option>
+        
+          
+            <option value="azerty"> Azerty </option>
+          
+        
+          
+            <option value="bepergol" selected> Bépergol </option>
+          
+        
+          
+            <option value="bepo"> Bépo </option>
+          
+        
+          
+            <option value="bepolar"> Bépolar </option>
+          
+        
+          
+            <option value="colemak-french-touch"> Colemak French Touch </option>
+          
+        
+          
+            <option value="erglace"> Erglace </option>
+          
+        
+          
+            <option value="ergol"> Ergo‑L </option>
+          
+        
+          
+            <option value="ergol-dev"> Ergo‑L (dev) </option>
+          
+        
+          
+            <option value="lafayette"> Lafayette </option>
+          
+        
+      
+    </select>
+
+    <select id="geometry">
+      <option value="iso" selected>ISO</option>
+      <option value="ansi">ANSI</option>
+      <option value="ol60">TMx</option>
+      <option value="ol50">4×6</option>
+      <option value="ol40">3×6</option>
+    </select>
+    <select id="corpus">
+      <option>en</option>
+      <option selected>en+fr</option>
+      <option>fr</option>
+    </select>
+  </form>
+
+  <p id="imprecise-data"> <strong>Attention :</strong> cette disposition
+    ne supporte pas de nombreux caractères du corpus sélectionné.
+    Les résultats ne sont proposés qu’à titre indicatif. </p>
+</div>
+
+<h2>Métriques</h2>
+
+<h3>Charge des doigts</h3>
+<small><span id="load-left"></span> / <span id="load-right"></span></small>
+<div id="load">
+  <canvas></canvas>
+  <table></table>
+</div>
+
+<h3>Digrammes à un doigt</h3>
+<small><span id="sfu-all"></span></small>
+<div id="sfu">
+  <canvas></canvas>
+  <table></table>
+</div>
+
+<h3>Touches doublées</h3>
+<small><span id="sku-all"></span></small>
+<div id="sku">
+  <canvas></canvas>
+  <table></table>
+</div>
+
+<collapsable-table id="Achoppements">
+  <small>
+    <span id="unsupported-all"></span> /
+    <span id="sfu-all"></span> /
+    <span id="extensions-all"></span> /
+    <span id="scisors-all"></span>
+  </small>
+  <table id="unsupported"></table>
+  <table id="sfu-digrams"></table>
+  <table id="extended-rolls"></table>
+  <table id="scisors"></table>
+</collapsable-table>
+
+<collapsable-table id="Digrammes">
+  <small>
+    <span id="sku-all"></span> /
+    <span id="inward-all"></span> /
+    <span id="outward-all"></span>
+  </small>
+  <table id="sku-digrams"></table>
+  <table id="inward"></table>
+  <table id="outward"></table>
+</collapsable-table>
+
+<collapsable-table id="Trigrammes">
+  <small>
+    <span id="almost-skb-all"></span> /
+    <span id="almost-sfb-all"></span> /
+    <span id="redirect-all"></span> /
+    <span id="bad-redirect-all"></span>
+  </small>
+  <table id="almost-skbs"></table>
+  <table id="almost-sfbs"></table>
+  <table id="redirect"></table>
+  <table id="bad-redirect"></table>
+</collapsable-table>
+
+<!-- <h2>Analyseurs de layouts</h2> -->
+<!-- <p>TODO</p> -->
+
+<h2>Glossaire</h2>
+<p>»»» <a href="/glossaire">Un glossaire est en cours d’élaboration ici.</a> «««</p>
+
+<h2>Mise en garde</h2>
+<p><strong>Ces métriques ne sont pas des cibles d’optimisation !</strong></p>
+
+<blockquote cite="https://fr.wikipedia.org/wiki/Loi_de_Goodhart">
+  <p>Lorsqu'une métrique devient un objectif, elle cesse d'être une bonne métrique.</p>
+  <p style="text-align: right;">— <a
+    href="https://fr.wikipedia.org/wiki/Loi_de_Goodhart">loi de Goodhart</a></p>
+</blockquote>
+
+<blockquote>
+  <p>Les chiffres sont aux analystes ce que les lampadaires sont aux ivrognes :
+  ils fournissent bien plus un appui qu'un éclairage.
+  <p style="text-align: right;">— Jean Dion</p>
+  <!-- Le Devoir - 4 juin 1997 -->
+</blockquote>
+
+<p> Notre recommandation : utilisez ces métriques non pour mesurer les qualités
+d’une disposition de clavier, mais pour essayer d’en évaluer le défaut le plus
+gênant. Puis itérez sur votre layout jusqu’à ce que ce défaut soit
+suffisamment réduit… sans en créer un pire ailleurs. </p>
+
+<p> Et recommencez. :-) </p>
+
+
+  
+  </main>
+  <footer>
+    <small style="float: left">quantifié par <a
+href="https://onedeadkey.github.io/x-keyboard">x-keyboard</a></small>
+<nav>
+  <a href="https://github.com/Nuclear-Squid/ErgoL">GitHub</a> |
+  <a href="https://discord.gg/5xR5K3nAFX">Discord</a>
+</nav>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="fr"
+  dir="ltr">
+
+<head>
+  <title>Présentation | Ergo‑L</title>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1a1a1f" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f8f8" />
+<meta name="color-scheme" content="light dark">
+<meta property="og:title"        content="Ergo‑L">
+<meta property="og:type"         content="website">
+<meta property="og:url"          content="https://ergol.org">
+<meta property="og:image"        content="/ergol.png">
+<meta property="og:image:type"   content="image/png">
+<meta property="og:image:width"  content="960">
+<meta property="og:image:height" content="360">
+<meta property="og:description"  content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<link type="image/svg+xml"       rel="icon"    href="/favicon.svg"        sizes="any">
+<link type="application/rss+xml" rel=alternate href="/articles/index.xml" title="Ergo‑L">
+
+        <script src="/js/x-keyboard.min.899a68a7b6537775a3824bc86a3379b2e6adb47fda6e58335a870ef312cb4a74.js" integrity="sha256-iZpop7ZTd3WjgkvIajN5suattH/ablgzWocO8xLLSnQ=" crossorigin="anonymous" type="module"></script>
+
+
+
+        <script src="/js/keebs.min.975fcc3f662ad60a2651f089f720480ce1923dfa2fda5972de75697ff3af8108.js" integrity="sha256-l1/MP2Yq1gomUfCJ9yBIDOGSPfov2lly3nVpf/OvgQg=" crossorigin="anonymous" type="text/javascript"></script>
+
+
+
+      <link rel="stylesheet" href="/css/theme.min.d8e898e509b45a8c42bba882505a97bda0cfab96582b68bcee8c25d55351fab9.css" integrity="sha256-2OiY5Qm0WoxCu6iCUFqXvaDPq5ZYK2i87owl1VNR&#43;rk=" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="/css/keebs.min.16a2cd8fe66f3c6260617b7655bf7f9d47f6f862844efe004eb93b404b29f474.css" integrity="sha256-FqLNj&#43;ZvPGJgYXt2Vb9/nUf2&#43;GKETv4ATrk7QEsp9HQ=" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <div id="banner">
+  <p class="title"><a href="/">Ergo‑L</a></p>
+  <p>Ergonomie optimisée pour le français, l’anglais, le code.</p>
+</div>
+
+  </header>
+  
+  <nav>
+    <ul>
+    <li>
+      <a aria-current="true" class="ancestor" href="/">Ergo‑L</a>
+        <ul>
+    <li>
+      <a aria-current="page" class="active" href="/presentation/">Présentation</a>
+    </li>
+    <li>
+      <a href="/installation/">Installation</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a href="/alternatives/">Alternatives</a>
+        <ul>
+    <li>
+      <a href="/bepo/">Bépo ?</a>
+    </li>
+    <li>
+      <a href="/erglace/">Erglace !</a>
+    </li>
+    <li>
+      <a href="/lafayette/">Lafayette *</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a href="/stats/">Analyseur</a>
+    </li>
+    <li>
+      <a href="/glossaire/">Glossaire</a>
+    </li>
+    <li>
+      <a href="/dactylo/">Apprendre</a>
+    </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Présentation</h1>
+    
+
+  
+<div class="keyboard">
+  <div style="width: 100%; padding-top: 34%; position: relative;">
+    <object type="image/svg+xml"
+             class="odk" 
+             data="/img/ergol.svg" 
+      style="position: absolute; top: 0; left: 0; width: 100%;"></object>
+  </div>
+
+  <form>
+    <fieldset class="layers" hidden>
+      <input type="radio" name="layers" label="Typo"  value="odk" checked
+        title="caractères obtenus par la touche « Typo » (vue simplifiée)">
+      <input type="radio" name="layers" label="Typo+Symboles"   value="mixed"
+        title="caractères obtenus par les touches « Typo » et « Symboles »">
+      <input type="radio" name="layers" label="Symboles" value="altgr"
+        title="caractères obtenus par la touche « Symboles »">
+    </fieldset>
+    <fieldset class="geometry">
+      <input type="radio" name="geometry" label="3×6"   value="3×6"
+        title="géométrie 40 % type OLKB Planck">
+      <input type="radio" name="geometry" label="4×6"   value="4×6"
+        title="géométrie 50 % type OLKB Preonic">
+      <input type="radio" name="geometry" label="TMx"   value="TMx"
+        title="géométrie 60 % type TypeMatrix">
+      <input type="radio" name="geometry" label="ANSI"  value="ANSI"
+        title="géométrie américaine">
+      <input type="radio" name="geometry" label="ISO"   value="ISO" checked
+        title="géométrie européenne">
+      <input type="radio" name="geometry" label="ISO-A" value="ISO-A"
+        title="géométrie européenne avec variante en « A »">
+    </fieldset>
+  </form>
+
+  
+    
+    <dialog>
+      <input spellcheck="false" placeholder="zone de saisie Ergo‑L" />
+      <x-keyboard src="/layouts/ergol.json"></x-keyboard>
+    </dialog>
+    
+    <nav>
+      
+        <a href="/installation"><span>⇣</span> Installer</a>
+      
+      
+        <button disabled>⇪ Tester</button>
+        <a href="/stats/#/ergol//en+fr"><span>𝚺</span> Stats</a>
+        <a href="/dactylo/#ergol"><span>⌨</span> Apprendre</a>
+      
+    </nav>
+  
+</div>
+
+<div class="highlight">
+<ul>
+<li><a href="#ergonomique-avant-tout">Ergonomique avant tout !</a> :
+<br> – réduit les extensions de doigt, les déviations ulnaires, l’effort
+de saisie ; <br> – compatible avec <strong>tous</strong> les claviers
+ergonomiques, de 33 à 105 touches ; <br> – préserve les raccourcis
+clavier et les chiffres en direct.</li>
+<li><a href="#plus-optimisé-que-dvorak-et-bépo">Plus optimisé que Dvorak
+et Bépo</a> : <br> deux fois moins de SFU que Bépo en français
+<strong>et</strong> que Dvorak en anglais.</li>
+<li><a href="#impeccable-en-français">Impeccable en français</a> : <br>
+une seule touche morte pour produire tous les caractères spéciaux.</li>
+<li><a href="#efficace-en-anglais">Efficace en anglais</a> : <br> la
+première disposition francophone <strong>réellement</strong> optimisée
+pour l’anglais.</li>
+<li><a href="#redoutable-pour-le-code">Redoutable pour le code</a> :
+<br> une couche de symboles optionnelle et optimisée pour le code est
+disponible en <kbd>AltGr</kbd></li>
+</ul>
+</div>
+<h2 id="ergonomique-avant-tout">Ergonomique avant tout !</h2>
+<h3 id="dfh-1u-distance-from-home">1DFH, <i lang="en">“1u Distance From
+Home”</i></h3>
+<p>Ergo-L intègre l’approche 1DFH, qui consiste à ne pas déplacer ses
+doigts de plus d’une touche par rapport à la position de repos. Cela
+permet un gain de confort important pour la saisie en méthode dactylo,
+évitant notamment les extensions latérales de l’auriculaire droit, qui
+sont typiques de Bépo pour les lettres
+<code>m</code> <code>z</code> <code>w</code> <code>ç</code>.</p>
+<figure>
+<img src="ergol_1dfh.svg"
+alt="Ergo‑L sur un clavier compact (type OLKB Planck)." />
+<figcaption aria-hidden="true">Ergo‑L sur un clavier compact (type OLKB
+Planck).</figcaption>
+</figure>
+<p>C’est pour suivre cette approche que l’immense majorité des claviers
+ergonomiques actuels ne propose que 6 colonnes de touches par main, ce
+qui est :</p>
+<ul>
+<li>compliqué avec AZERTY, qui a les touches <kbd>Ù</kbd> et
+<kbd>^</kbd> en 6e colonne, obligeant à déplacer <kbd>Entrée</kbd> et
+<kbd>Backspace</kbd> ;</li>
+<li><strong>très</strong> compliqué avec Bépo, qui, outre <kbd>M</kbd>
+et <kbd>Z</kbd> en 6e colonne, a <kbd>W</kbd> et <kbd>Ç</kbd> en 7e
+colonne à déplacer également ;</li>
+<li>trivial avec Ergo‑L, qui a été conçu pour ça.</li>
+</ul>
+<p>Les claviers ergonomiques modernes cherchent à limiter le nombre
+total de touches, en utilisant différents <em>layers</em> pour amener
+les touches excentrées sous les doigts, plutôt que l’inverse. Nous avons
+donc décidé de n’utiliser aucune touche en dehors du pavé de 3×10
+touches centrales pour les lettres et symboles de programation. Ergo‑L
+est ainsi compatible avec les claviers les plus compacts (minimum 33
+touches) sans ajustement majeur.</p>
+<h3 id="adapté-à-la-bureautique">Adapté à la bureautique</h3>
+<p>Les raccourcis claviers usuels
+<kbd>Ctrl</kbd>‑<kbd>Q</kbd><kbd>A</kbd><kbd>S</kbd><kbd>Z</kbd><kbd>X</kbd><kbd>C</kbd><kbd>V</kbd>
+sont devenus indispensables pour une utilisation avec la souris en main
+droite. Les approches de type <a
+href="https://fr.wikipedia.org/wiki/Disposition_Dvorak">Dvorak</a>, très
+antérieures à la généralisation de la bureautique (Dvorak a été finalisé
+en 1932), ignorent ces raccourcis clavier en plaçant toutes les voyelles
+sous la main gauche ; mais les approches modernes comme Colemak et
+Workman permettent de conserver ces raccourcis tout en obtenant de
+meilleures métriques que Dvorak.</p>
+<p>Ergo‑L suit cette approche <a href="https://colemak.com">Colemak</a>
+/ <a href="https://workmanlayout.org">Workman</a> et, comme eux,
+s’autorise un changement : le <kbd>C</kbd> est ainsi déplacé pour
+favoriser les enchaînements, mais <kbd>Ctrl</kbd>‑<kbd>C</kbd> reste
+faisable d’une main à gauche.</p>
+<h3 id="réduction-de-la-fatigue-de-saisie">Réduction de la fatigue de
+saisie</h3>
+<p>Ergo‑L veille à réduire autant que possible :</p>
+<ul>
+<li><strong>les déviations ulnaires</strong>, en proposant une
+alternative en <kbd>AltGr</kbd> à tous les symboles placés sur des
+touches excentrées ;</li>
+<li><strong>la charge des doigts faibles</strong>, surtout celle de
+l’auriculaire droit, responsable de <kbd>Entrée</kbd> et
+<kbd>Backspace</kbd> sur la plupart des claviers ;</li>
+<li><strong>le taux de digrammes de même doigt</strong>, un type
+d’enchaînement très inconfortable, notamment à haute vitesse de
+saisie.</li>
+</ul>
+<p>Ergo‑L privilégie le confort à la vitesse : on peut taper vite avec
+n’importe quel clavier. Mais il est conçu pour que son confort et son
+ergonomie ne se dégradent pas au fur et à mesure que la vitesse de
+saisie augmente.</p>
+<h2 id="plus-optimisé-que-dvorak-et-bépo">Plus optimisé que Dvorak et
+Bépo</h2>
+<p><a href="https://fr.wikipedia.org/wiki/Disposition_Dvorak">Dvorak</a>
+est la disposition de clavier optimisée la plus connue. Elle fut
+développée pendant l’entre-deux-guerres pour les machines à écrire, qui
+ont d’importantes contraintes physiques dont les claviers modernes sont
+exemptés : typiquement, appuyer sur deux touches côte à côte est un
+excellent moyen de coincer les marteaux. Cela implique qu’il fallait
+privilégier les alternances de mains aux
+<abbr title="Enchaînements de deux touches actionnées par deux doigts
+différents d’une même main, comme 'df' en AZERTY">roulements</abbr>,
+alors que ces derniers sont très confortables sur un clavier
+d’ordinateur.</p>
+<p>Dvorak était un grand pas en avant, mais se base sur une philosophie
+qui n’est plus pertinente aujourd’hui. Malheureusement, <a
+href="https://bepo.fr">Bépo</a> et ses nombreuses variantes la
+reprennent sans chercher à la mettre à jour.</p>
+<p>Dvorak et Bépo ne sont optimisés que pour une seule langue (anglais
+et français, respectivement), et sont très inconfortables dans l’autre.
+Pourtant, à une exception près, les 9 lettres les plus fréquentes sont
+les mêmes en français (<code>esanitruo</code>) et en anglais
+(<code>etaohnisr</code>) :</p>
+<div style="overflow: scroll;">
+<table style="width:100%;">
+<caption>Fréquence des lettres les plus utilisées en français et en
+anglais.</caption>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"></th>
+<th style="text-align: center;">E</th>
+<th style="text-align: center;">S</th>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">I</th>
+<th style="text-align: center;">T</th>
+<th style="text-align: center;">R</th>
+<th style="text-align: center;">U</th>
+<th style="text-align: center;">O</th>
+<th style="text-align: center;">H</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;"><strong>fr</strong></td>
+<td style="text-align: center;">14.4 %</td>
+<td style="text-align: center;">7.2 %</td>
+<td style="text-align: center;">7.1 %</td>
+<td style="text-align: center;">6.8 %</td>
+<td style="text-align: center;">6.7 %</td>
+<td style="text-align: center;">6.7 %</td>
+<td style="text-align: center;">6.5 %</td>
+<td style="text-align: center;">6.1 %</td>
+<td style="text-align: center;">5.3 %</td>
+<td style="text-align: center;">1.0 %</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><strong>en</strong></td>
+<td style="text-align: center;">11.7 %</td>
+<td style="text-align: center;">6.1 %</td>
+<td style="text-align: center;">8.0 %</td>
+<td style="text-align: center;">6.6 %</td>
+<td style="text-align: center;">6.5 %</td>
+<td style="text-align: center;">9.0 %</td>
+<td style="text-align: center;">5.3 %</td>
+<td style="text-align: center;">2.7 %</td>
+<td style="text-align: center;">7.8 %</td>
+<td style="text-align: center;">6.7 %</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Ergo‑L place donc ces lettres aux emplacements les plus confortables
+(au sens de <a href="https://workmanlayout.org">Workman</a>) et fait en
+sorte qu’aucun enchaînement fréquent en français ou en anglais ne soit
+rédhibitoire. Comme <a href="https://colemak.com">Colemak</a>, on
+cherche à limiter le plus possible le taux de digrammes de même doigt,
+en favorisant les roulements au même titre que les alternances de
+mains.</p>
+<p>Malgré le fait qu’il soit optimisé pour les <strong>deux</strong>
+langues, français <strong>et</strong> anglais, Ergo‑L affiche de
+meilleures métriques d’optimisation, tant sur la charge des doigts que
+sur le taux de digrammes de même doigt :</p>
+<style>
+.sfu table tr td:nth-child(4) { background-color: var(--bg-accent); }
+.sfu table caption { margin-top: 0.5em; font-size: smaller; }
+.sfu table { margin: 1em auto; max-width: 50em; border-collapse: collapse; }
+</style>
+<div class="sfu" style="overflow: scroll;">
+<table>
+<caption>Taux de digrammes de même doigts en français et anglais,
+extrait de la <a href="/bepo">page de comparaison avec
+Bépo</a>.</caption>
+<colgroup>
+<col style="width: 1%" />
+<col style="width: 20%" />
+<col style="width: 18%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"></th>
+<th style="text-align: center;">AZERTY</th>
+<th style="text-align: center;">Bépo</th>
+<th style="text-align: center;">Ergo‑L</th>
+<th style="text-align: center;">Dvorak</th>
+<th style="text-align: center;">QWERTY</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;"><strong>fr</strong></td>
+<td style="text-align: center;"><a
+href="/stats/#/azerty//fr">7.97 %</a></td>
+<td style="text-align: center;"><a
+href="/stats/#/bepo//fr">2.55 %</a></td>
+<td style="text-align: center;"><a
+href="/stats/#/ergol//fr">1.22 %</a></td>
+<td style="text-align: center;"><a
+href="/stats/#/dvorak//fr">3.31 %</a></td>
+<td style="text-align: center;"><a
+href="/stats/#/qwerty//fr">7.16 %</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><strong>en</strong></td>
+<td style="text-align: center;"><a
+href="/stats/#/azerty//en">6.31 %</a></td>
+<td style="text-align: center;"><a
+href="/stats/#/bepo//en">3.01 %</a></td>
+<td style="text-align: center;"><a
+href="/stats/#/ergol//en">1.20 %</a></td>
+<td style="text-align: center;"><a
+href="/stats/#/dvorak//en">2.62 %</a></td>
+<td style="text-align: center;"><a
+href="/stats/#/qwerty//en">5.76 %</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="impeccable-en-français">Impeccable en français</h2>
+<h3 id="caractères-accentués">Caractères accentués</h3>
+<p>La gestion des accents, diacritiques et symboles typographiques
+français nécessite traditionnellement l’usage de touches excentrées (ce
+qui irait à l’encontre de l’approche <a
+href="/presentation#dfh-1u-distance-from-home">1DFH</a> d’Ergo‑L) ou de
+<kbd>AltGr</kbd> (qui est source d’erreur à haute vitesse, car il faut
+relâcher la touche au bon moment).</p>
+<p>Ergo‑L utilise une touche morte <span class="odk">★</span> de type <a
+href="https://qwerty-lafayette.org/">Lafayette</a> pour tous les
+caractères accentués, diacritiques et ponctuations spéciales. Actionner
+cette « touche Typo » donne accès à <strong>tous</strong> ces symboles
+dans le pavé de 3×10 touches, <strong>sans</strong> utiliser
+<kbd>AltGr</kbd>. Cela occasionne <a href="/bepo/#typographie-ergol">2.5
+à 4.0 % de frappes supplémentaires</a> pour un texte francophone, ce qui
+nous semble négligeable comparé au gain de confort obtenu.</p>
+<figure>
+<img src="ergol_1dk.svg" alt="La touche morte d’Ergo‑L." />
+<figcaption aria-hidden="true">La touche morte d’Ergo‑L.</figcaption>
+</figure>
+<ul>
+<li><span class="odk">★</span> [lettre] = accent grave ou altération
+(<code>à</code>, <code>è</code>, <code>ù</code>, <code>ç</code>,
+<code>œ</code>)</li>
+<li><span class="odk">★</span> [touche à gauche d’une voyelle] = voyelle
+avec accent aigu (<code>é</code>)</li>
+<li><span class="odk">★</span> [touche à l’intérieur ou au-dessus] =
+voyelle avec circonflexe (<code>â</code>, <code>ê</code>,
+<code>î</code>, <code>ô</code>, <code>û</code>)</li>
+<li>… et d’autres altérations : <code>æ</code>, <code>µ</code>,
+<code>ß</code>, <code>ñ</code>…</li>
+</ul>
+<p>La touche <span class="odk">★</span> donne parfois accès à une autre
+touche morte :</p>
+<ul>
+<li><span class="odk">★</span> <span class="odk">★</span> = tréma mort
+(<code>ä</code>, <code>ë</code>, <code>ï</code>, <code>ö</code>,
+<code>ü</code>, <code>ÿ</code>…)</li>
+<li><span class="odk">★</span> <kbd>G</kbd> = touche morte grecque
+(<code>α</code>, <code>β</code>, <code>γ</code>…)</li>
+</ul>
+<h3 id="typographie">Typographie</h3>
+<p>Soigner la typographie demande souvent un effort (physique et mental)
+supplémentaire non négligeable. Beaucoup l’ignorent, ou laissent leur
+éditeur de texte la gérer pour eux. Ergo‑L permet de soigner la
+typographie sans aucun effort supplémentaire :</p>
+<ul>
+<li><kbd>Shift</kbd>‑<kbd>Espace</kbd> = espace insécable fine</li>
+<li><span class="odk">★</span> <kbd>Espace</kbd> = apostrophe
+typographique</li>
+<li><span
+class="odk">★</span> <kbd>D</kbd><kbd>B</kbd><kbd>V</kbd><kbd>-</kbd> =
+tiret bas, cadratin, demi-cadratin, insécable</li>
+<li><span class="odk">★</span> [majuscule] = majuscule accentuée</li>
+</ul>
+<p>Les ponctuations hautes
+(<code>:</code> <code>;</code> <code>?</code> <code>!</code>) sont en
+<kbd>Shift</kbd> pour faciliter leur enchaînement avec l’insécable
+fine : on maintient <kbd>Shift</kbd>, on presse <kbd>Espace</kbd> puis
+la ponctuation, on relâche <kbd>Shift</kbd>.</p>
+<h3 id="optimisation">Optimisation</h3>
+<p>En français, les huit lettres les plus fréquentes
+(<code>esanitru</code>) sont toutes réparties sur la position de repos
+des doigts, et le reste des lettres fréquentes est réparti sur les
+autres touches faciles d’accès.</p>
+<p>Une grande attention à été portée aux enchaînements de lettres.</p>
+<ul>
+<li>Les voyelles s’enchaînent fréquemment avec toutes les consonnes
+importantes, donc elles sont soit :
+<ul>
+<li>placées sur les auriculaires, avec des lettres peu fréquentes
+autour, comme <kbd>Q</kbd><kbd>A</kbd><kbd>Z</kbd> et
+<kbd>Y</kbd><kbd>U</kbd><kbd>K</kbd> ;</li>
+<li>empilées sur des doigts plus forts pour celles qui ne s’enchaînent
+pas ensemble, comme <kbd>E</kbd><kbd>O</kbd> et <span
+class="odk">★</span><kbd>I</kbd>.</li>
+</ul></li>
+<li>Le placement des lettres sur les positions de repos maximise les
+roulements vers l’intérieur et minimise les redirections, qui sont
+source d’erreur à haute vitesse.</li>
+<li>Le reste des lettres fréquentes est placé de sorte à minimiser les
+digrammes de même doigt (par exemple, <kbd>D</kbd> et <kbd>G</kbd>
+s’enchaînent très souvent avec <kbd>N</kbd> ou <kbd>R</kbd>, mais très
+peu avec <kbd>T</kbd>).</li>
+<li>La touche morte est placée sur la main opposée à
+<kbd>E</kbd><kbd>A</kbd><kbd>C</kbd>, qui sont les lettres les plus
+souvent diacritées en français.</li>
+</ul>
+<figure>
+<img src="ergol_fr.svg"
+alt="Fréquence d’utilisation des touches en français." />
+<figcaption aria-hidden="true"><a href="/stats/#/Ergo‑L//fr">Fréquence
+d’utilisation des touches en français.</a></figcaption>
+</figure>
+<p>Pratiquement aucun enchaînement courant en français ne demande trop
+d’effort.</p>
+<h2 id="efficace-en-anglais">Efficace en anglais</h2>
+<h3 id="même-optimisation-quen-français">Même optimisation qu’en
+français</h3>
+<p>Ergo‑L porte la même attention au confort de la saisie de texte en
+anglais qu’en français, et doit donc faire quelques compromis pour faire
+cohabiter les deux langues. Certaines lettres sont beaucoup plus
+fréquentes dans une langue que l’autre, (comme le <kbd>U</kbd> et la
+touche <span class="odk">★</span> en français et le <kbd>H</kbd> en
+anglais) et les enchaînements courants peuvent être très différents.</p>
+<p>Ergo‑L optimise le plus possible la saisie de texte anglais et
+français sans causer de problèmes rédhibitoires dans une de ces deux
+langues. Par exemple, l’enchaînement <code>TH</code> (<em>le</em>
+digramme le plus fréquent en anglais, avec 3.2% d’occurences) est très
+confortable, mais le <kbd>H</kbd> occupe une place dont on peut se
+dispenser en français. De même, <kbd>U</kbd> et <span
+class="odk">★</span> sont très fréquents en français, mais peu fréquents
+en anglais, ce qui a été pris en compte pour leur placement.</p>
+<figure>
+<img src="ergol_en.svg"
+alt="Fréquence d’utilisation des touches en anglais." />
+<figcaption aria-hidden="true"><a href="/stats/#/Ergo‑L//en">Fréquence
+d’utilisation des touches en anglais.</a></figcaption>
+</figure>
+<p>Ergo‑L a donc une ergonomie comparable en français et en anglais.
+Bien que de nombreuses dispositions dédiées exclusivement à l’anglais
+soient plus efficace qu’Ergo‑L dans cette langue, Ergo‑L est <em>la
+première disposition <strong>reéellement</strong> optimisée pour le
+français <strong>et</strong> l’anglais</em>.</p>
+<!-- Insérer ici une section expliquant pourquoi le É n’est pas en direct ! -->
+<h3 id="et-les-autres-langues">Et les autres langues ?</h3>
+<p>Ergo‑L est capable de saisir du texte dans toutes les langues de
+l’union européenne (utilisant l’alphabet latin) ainsi que l’esperanto et
+le romaji, mais ne cherche pas à optimiser la saisie de texte dans
+d’autres langues que le français et l’anglais. Certains caractères sont
+disponibles en touche <span class="odk">★</span>, comme <code>ß</code>
+ou <code>ñ</code>, et il existe de nombreuses touches mortes en
+<kbd>Shift</kbd>‑<kbd>AltGr</kbd> : par exemple, <code>^</code> étant en
+<kbd>AltGr</kbd>‑<kbd>Q</kbd>,
+<kbd>Shift</kbd>‑<kbd>AltGr</kbd>‑<kbd>Q</kbd> produit un accent
+circonflexe mort.</p>
+<p>Cette approche est suffisante pour la saisie occasionnelle de
+caractères spéciaux. Pour des usages plus réguliers, plutôt que de
+chercher à couvrir tous les cas possibles nous avons préféré faire en
+sorte que la disposition soit simple à personnaliser.</p>
+<p>Le <a href="https://github.com/Nuclear-Squid/ErgoL">dépôt github
+d’Ergo‑L</a> contient le fichier source de la disposition (un fichier
+TOML facile à lire et modifier) ainsi que des instructions pour
+construire votre disposition personnalisée ou évaluer la qualité des
+enchaînements de votre variante. Remplacer les caractères de la touche
+morte par ceux dont vous avez besoin devrait être relativement simple,
+et le résultat sera bien plus efficace que n’importe quelle disposition
+de clavier cherchant à couvrir toutes les langues !</p>
+<figure>
+<img src="ergol_1dk_de.svg"
+alt="Un exemple d’adaptation d’Ergo‑L pour l’allemand." />
+<figcaption aria-hidden="true">Un exemple d’adaptation d’Ergo‑L pour
+l’allemand.</figcaption>
+</figure>
+<p>Si vous voulez adapter Ergo‑L à une langue étrangère, nous vous
+recommandons de concevoir la couche <em>Typo</em> uniquement pour cette
+langue et d’installer votre adaptation en même temps qu’Ergo‑L en lui
+donnant un autre nom (comme « ergol-de » pour l’allemand, par exemple)
+et la <em>locale</em> adaptée (pour avoir la bonne correction
+orthographique). Tous les bureaux modernes proposent un raccourci
+clavier pour basculer d’une langue à l’autre, et vous pourrez ainsi
+basculer d’Ergo‑L à votre variante spécifique en un clin d’œil.</p>
+<h2 id="redoutable-pour-le-code">Redoutable pour le code</h2>
+<h3 id="héritage-qwerty-us">Héritage QWERTY-US</h3>
+<p>La grande majorité des touches en dehors du pavé de 3×10 sont
+identiques à celles de QWERTY‑US. Les seules exceptions sont :</p>
+<ul>
+<li>les chevrons <code>&lt;</code> et <code>&gt;</code> sur la touche
+ISO, entre <kbd>Shift</kbd> et <kbd>Z</kbd> ;</li>
+<li>les signes <code>-</code> et <code>/</code> qui sont échangés, le
+tiret étant très fréquent en français ;</li>
+<li>les signes <code>;</code> et <code>:</code> qui sont déplacés en
+<kbd>Shift</kbd>‑<kbd>,</kbd> et <kbd>Shift</kbd>‑<kbd>.</kbd>
+respectivement.</li>
+</ul>
+<p>Cet héritage implique aussi que les chiffres sont en accès direct
+(sans <kbd>Shift</kbd>), ce qui facilite grandement la saisie de
+nombres.</p>
+<p>QWERTY‑US est réputé pour son efficacité dans la saisie de symboles
+de programation, mais elle est perfectible : <strong>tous</strong> les
+symboles de programmation nécessitent au moins un auriculaire et une
+extension, car ils sont tous sous un auriculaire, ou en
+<kbd>Shift</kbd>, ou les deux. Ergo‑L a donc à cœur de proposer une
+meilleure alternative.</p>
+<h3 id="couche-symboles">Couche symboles</h3>
+<p>Ergo‑L propose une couche <em>Symboles</em> optionelle accessible par
+<kbd>AltGr</kbd> et optimisée pour le placement et les enchaînements de
+symboles de programmation.</p>
+<figure>
+<img src="ergol_altgr.svg" alt="La couche Symboles d’Ergo‑L." />
+<figcaption aria-hidden="true">La couche <em>Symboles</em>
+d’Ergo‑L.</figcaption>
+</figure>
+<p>Cette couche <em>Symboles</em> est plutôt simple à mémoriser, car les
+symboles sont regroupés par « blocs ». On y retrouve :</p>
+<ul>
+<li>les délimiteurs
+<code>()</code> <code>{}</code> <code>[]</code> <code>&lt;&gt;</code> <code>^$</code>
+<small>(nota : <code>^$</code> marquent le début/fin de ligne dans les
+expressions régulières)</small> ;</li>
+<li>les délimiteurs de chaîne de caractères
+<code>'</code> <code>`</code> <code>"</code> ;</li>
+<li>les symboles arithmétiques
+<code>+</code> <code>-</code> <code>/</code> <code>*</code> ;</li>
+<li>les ponctuations
+<code>!</code> <code>;</code> <code>:</code> <code>?</code>
+<small>(nota : <code>;</code> <code>:</code> sont à leur emplacement en
+QWERTY Européen)</small> ;</li>
+<li><code>$</code> <code>%</code> <code>&amp;</code> <code>*</code> sont
+à leur position en <kbd>Shift</kbd>‑chiffre, mais une rangée plus
+bas.</li>
+</ul>
+<p>Comme pour l’emplacement des lettres de la disposition, une grande
+attention a été portée au placement des symboles de prog et aux
+enchaînements courants. Les symboles peu courants (<code>~@#%^`|</code>)
+sont loin des positions de repos, et la grande majorité des
+enchaînements de symboles de prog se fait soit avec une alternance de
+main (<code>~/</code>, <code>);</code>, <code>&lt;/&gt;</code>,
+<code>+=</code>, <code>['']</code>, …) soit avec un roulement
+(<code>&gt;=</code>, <code>/*</code>, <code>";</code>, <code>()</code>,
+<code>\"</code>, …).</p>
+<p>Comme pour la saisie de texte en français ou anglais, la couche
+<em>Symboles</em> d’Ergo‑L ne contient pratiquement aucun enchaînement
+inconfortable.</p>
+<h3 id="compatibilité-vim">Compatibilité Vim</h3>
+<p>Pour une utilisation technique, Vim apporte une ergonomie reconnue et
+de nombreux éditeurs de code implémentent un mode de navigation Vim. La
+couche <em>Symboles</em> d’Ergo‑L lui permet de conserver les
+principales commandes de déplacement :</p>
+<ul>
+<li><kbd>AltGr</kbd>‑<kbd>R</kbd>/<kbd>T</kbd> (les touches
+correspondant à <kbd>J</kbd>/<kbd>K</kbd> en QWERTY) donne
+<code>+</code>/<code>-</code>, qui est une action très proche de
+<code>j</code>/<code>k</code> ;</li>
+<li>les sauts verticaux <code>{}</code>, <code>()</code> et
+<code>[]</code> sont en <kbd>AltGr</kbd> + main gauche.</li>
+</ul>
+<p>Cette couche <em>Symboles</em> a été éprouvée dans des contextes
+techniques variés sans qu’on relève de problème particulier. Elle a été
+reprise dans d’autres projets, notamment <a
+href="https://qwerty-lafayette.org/">Lafayette</a> et <a
+href="https://github.com/OneDeadKey/arsenik">Arsenik</a>.</p>
+<h2 id="licence">Licence</h2>
+<p><a href="http://wtfpl.net">WTFPL</a> – Do What The Fuck You Want To
+Public License. Il existe des licences mieux réputées, mais on en a
+choisi une dont on comprend tous les mots.</p>
+<!--
+ !   ╭───────────────────────────────────────────────────────╮
+ !   │               Balises pour les liens :                │
+ !   ╰───────────────────────────────────────────────────────╯
+-->
+
+
+  
+  </main>
+  <footer>
+    <small style="float: left">propulsé par <a
+href="https://onedeadkey.github.io/x-keyboard">x-keyboard</a></small>
+<nav>
+  <a href="https://github.com/Nuclear-Squid/ErgoL">GitHub</a> |
+  <a href="https://discord.gg/5xR5K3nAFX">Discord</a>
+</nav>
+
+  </footer>
+</body>
+
+</html>

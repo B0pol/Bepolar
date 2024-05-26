@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr"
+  dir="ltr">
+
+<head>
+  <title>Erglace | Ergo‑L</title>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1a1a1f" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f8f8" />
+<meta name="color-scheme" content="light dark">
+<meta property="og:title"        content="Ergo‑L">
+<meta property="og:type"         content="website">
+<meta property="og:url"          content="https://ergol.org">
+<meta property="og:image"        content="/ergol.png">
+<meta property="og:image:type"   content="image/png">
+<meta property="og:image:width"  content="960">
+<meta property="og:image:height" content="360">
+<meta property="og:description"  content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<link type="image/svg+xml"       rel="icon"    href="/favicon.svg"        sizes="any">
+<link type="application/rss+xml" rel=alternate href="/articles/index.xml" title="Ergo‑L">
+
+        <script src="/js/x-keyboard.min.899a68a7b6537775a3824bc86a3379b2e6adb47fda6e58335a870ef312cb4a74.js" integrity="sha256-iZpop7ZTd3WjgkvIajN5suattH/ablgzWocO8xLLSnQ=" crossorigin="anonymous" type="module"></script>
+
+
+
+        <script src="/js/keebs.min.975fcc3f662ad60a2651f089f720480ce1923dfa2fda5972de75697ff3af8108.js" integrity="sha256-l1/MP2Yq1gomUfCJ9yBIDOGSPfov2lly3nVpf/OvgQg=" crossorigin="anonymous" type="text/javascript"></script>
+
+
+
+      <link rel="stylesheet" href="/css/theme.min.d8e898e509b45a8c42bba882505a97bda0cfab96582b68bcee8c25d55351fab9.css" integrity="sha256-2OiY5Qm0WoxCu6iCUFqXvaDPq5ZYK2i87owl1VNR&#43;rk=" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="/css/keebs.min.16a2cd8fe66f3c6260617b7655bf7f9d47f6f862844efe004eb93b404b29f474.css" integrity="sha256-FqLNj&#43;ZvPGJgYXt2Vb9/nUf2&#43;GKETv4ATrk7QEsp9HQ=" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <div id="banner">
+  <p class="title"><a href="/">Ergo‑L</a></p>
+  <p>Ergonomie optimisée pour le français, l’anglais, le code.</p>
+</div>
+
+  </header>
+  
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Ergo‑L</a>
+        <ul>
+    <li>
+      <a href="/presentation/">Présentation</a>
+    </li>
+    <li>
+      <a href="/installation/">Installation</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/alternatives/">Alternatives</a>
+        <ul>
+    <li>
+      <a href="/bepo/">Bépo ?</a>
+    </li>
+    <li>
+      <a aria-current="page" class="active" href="/erglace/">Erglace !</a>
+    </li>
+    <li>
+      <a href="/lafayette/">Lafayette *</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a href="/stats/">Analyseur</a>
+    </li>
+    <li>
+      <a href="/glossaire/">Glossaire</a>
+    </li>
+    <li>
+      <a href="/dactylo/">Apprendre</a>
+    </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Erglace</h1>
+    
+
+  
+<div class="keyboard">
+  <div style="width: 100%; padding-top: 34%; position: relative;">
+    <object type="image/svg+xml"
+             class="odk" 
+             data="/img/erglace.svg" 
+      style="position: absolute; top: 0; left: 0; width: 100%;"></object>
+  </div>
+
+  <form>
+    <fieldset class="layers" hidden>
+      <input type="radio" name="layers" label="Typo"  value="odk" checked
+        title="caractères obtenus par la touche « Typo » (vue simplifiée)">
+      <input type="radio" name="layers" label="Typo+Symboles"   value="mixed"
+        title="caractères obtenus par les touches « Typo » et « Symboles »">
+      <input type="radio" name="layers" label="Symboles" value="altgr"
+        title="caractères obtenus par la touche « Symboles »">
+    </fieldset>
+    <fieldset class="geometry">
+      <input type="radio" name="geometry" label="3×6"   value="3×6"
+        title="géométrie 40 % type OLKB Planck">
+      <input type="radio" name="geometry" label="4×6"   value="4×6"
+        title="géométrie 50 % type OLKB Preonic">
+      <input type="radio" name="geometry" label="TMx"   value="TMx"
+        title="géométrie 60 % type TypeMatrix">
+      <input type="radio" name="geometry" label="ANSI"  value="ANSI"
+        title="géométrie américaine">
+      <input type="radio" name="geometry" label="ISO"   value="ISO" checked
+        title="géométrie européenne">
+      <input type="radio" name="geometry" label="ISO-A" value="ISO-A"
+        title="géométrie européenne avec variante en « A »">
+    </fieldset>
+  </form>
+
+  
+    
+    <dialog>
+      <input spellcheck="false" placeholder="zone de saisie Erglace" />
+      <x-keyboard src="/layouts/erglace.json"></x-keyboard>
+    </dialog>
+    
+    <nav>
+      
+        <a href="https://github.com/Lysquid/Erglace"><span>⇣</span> Installer</a>
+      
+      
+        <button disabled>⇪ Tester</button>
+        <a href="/stats/#/erglace//en+fr"><span>𝚺</span> Stats</a>
+        <a href="/dactylo/#erglace"><span>⌨</span> Apprendre</a>
+      
+    </nav>
+  
+</div>
+
+<h2 id="comparaison-à-ergo-l">Comparaison à Ergo-L</h2>
+<p>Erglace abandonne l’accès facile aux raccourcis usuels (Ctrl+C,
+Ctrl+V…) pour atteindre des statistiques légèrement meilleures, en
+particulier un SFB plus bas, autour les 1%. Le <a
+href="/glossaire">SFB</a> correspond aux enchaînements de deux
+caractères qui utilisent le même doigt, ce qui ralentit la vitesse de
+frappe.</p>
+<p>L’autre différence est qu’Erglace cherche à minimiser les <a
+href="/glossaire">redirections</a>, c’est-à-dire les enchaînements de
+trois caractères d’une même main avec un changement de direction,
+mouvement considéré comme inconfortable. Pour ce faire, toutes les
+voyelles se retrouvent d’un côté, comme en Bépo, ce qui favorise
+l’alternance des mains. Le désavantage est que la disposition a moins de
+<a href="/glossaire">roulements</a>, c’est-à-dire des enchaînements de
+trois lettres d’une main dans une même direction, qui sont
+appréciables.</p>
+<p>En dehors de ces points, Erglace garde les principes d’Ergo-L (1DFH,
+touche morte…), et reprend d’ailleurs la même couche de symboles.</p>
+<h2 id="comment-choisir">Comment choisir ?</h2>
+<p>Pour la majorité de gens, Ergo-L convient mieux, mais certains
+profils pourraient préférer Erglace :</p>
+<ul>
+<li>Les bépoètes et utilisateurs d’Optimot, habitués à avoir les
+voyelles d’un côté, qui sont déroutés par l’apprentissage d’Ergo-L</li>
+<li>Les personnes qui pensent que l’alternance des mains est plus
+désirable que les roulements (aujourd’hui, l’avis inverse est largement
+partagé au sein de la communauté)</li>
+<li>Les rares personnes qui trouvent qu’Ergo-L a trop de redirections ou
+de SFB</li>
+</ul>
+<p>La disposition a quelques défauts qu’il faut garder à l’esprit :</p>
+<ul>
+<li>Erglace ne conserve pas les raccourcis usuels, ce qui ne permet pas
+de les faire à une main, avec l’autre main sur la souris. Une solution
+est d’avoir un clavier programmable avec des touches dédiées à ces
+actions (copier, coller…)</li>
+<li>Erglace n’a pas encore atteint de version stable comme Ergo-L, et
+pourrait potentiellement voir des changements à l’avenir</li>
+<li>Malgré de bonnes statistiques générales, certains enchaînements
+précis sont actuellement inconfortables en Erglace, là où Ergo-L a moins
+d’aspérités</li>
+</ul>
+<h2 id="conception">Conception</h2>
+<p>Les explications détaillées des choix fait lors de la conception sont
+disponibles sur le <a
+href="https://github.com/Lysquid/Erglace/blob/main/NOTES.md">GitHub de
+la disposition</a>, et sont mises à jour au fur et à mesure des
+changements.</p>
+
+
+  
+  </main>
+  <footer>
+    <small style="float: left">réfrigéré par <a
+href="https://onedeadkey.github.io/x-keyboard">x-keyboard</a></small>
+<nav>
+  <a href="https://github.com/Nuclear-Squid/ErgoL">GitHub</a> |
+  <a href="https://discord.gg/5xR5K3nAFX">Discord</a>
+</nav>
+
+  </footer>
+</body>
+
+</html>

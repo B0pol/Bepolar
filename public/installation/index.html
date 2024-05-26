@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr"
+  dir="ltr">
+
+<head>
+  <title>Ergo‑L 1.0 | Ergo‑L</title>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1a1a1f" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f8f8" />
+<meta name="color-scheme" content="light dark">
+<meta property="og:title"        content="Ergo‑L">
+<meta property="og:type"         content="website">
+<meta property="og:url"          content="https://ergol.org">
+<meta property="og:image"        content="/ergol.png">
+<meta property="og:image:type"   content="image/png">
+<meta property="og:image:width"  content="960">
+<meta property="og:image:height" content="360">
+<meta property="og:description"  content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<link type="image/svg+xml"       rel="icon"    href="/favicon.svg"        sizes="any">
+<link type="application/rss+xml" rel=alternate href="/articles/index.xml" title="Ergo‑L">
+
+        <script src="/js/x-keyboard.min.899a68a7b6537775a3824bc86a3379b2e6adb47fda6e58335a870ef312cb4a74.js" integrity="sha256-iZpop7ZTd3WjgkvIajN5suattH/ablgzWocO8xLLSnQ=" crossorigin="anonymous" type="module"></script>
+
+
+
+        <script src="/js/keebs.min.975fcc3f662ad60a2651f089f720480ce1923dfa2fda5972de75697ff3af8108.js" integrity="sha256-l1/MP2Yq1gomUfCJ9yBIDOGSPfov2lly3nVpf/OvgQg=" crossorigin="anonymous" type="text/javascript"></script>
+
+
+
+      <link rel="stylesheet" href="/css/theme.min.d8e898e509b45a8c42bba882505a97bda0cfab96582b68bcee8c25d55351fab9.css" integrity="sha256-2OiY5Qm0WoxCu6iCUFqXvaDPq5ZYK2i87owl1VNR&#43;rk=" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="/css/keebs.min.16a2cd8fe66f3c6260617b7655bf7f9d47f6f862844efe004eb93b404b29f474.css" integrity="sha256-FqLNj&#43;ZvPGJgYXt2Vb9/nUf2&#43;GKETv4ATrk7QEsp9HQ=" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <div id="banner">
+  <p class="title"><a href="/">Ergo‑L</a></p>
+  <p>Ergonomie optimisée pour le français, l’anglais, le code.</p>
+</div>
+
+  </header>
+  
+  <nav>
+    <ul>
+    <li>
+      <a aria-current="true" class="ancestor" href="/">Ergo‑L</a>
+        <ul>
+    <li>
+      <a href="/presentation/">Présentation</a>
+    </li>
+    <li>
+      <a aria-current="page" class="active" href="/installation/">Installation</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a href="/alternatives/">Alternatives</a>
+        <ul>
+    <li>
+      <a href="/bepo/">Bépo ?</a>
+    </li>
+    <li>
+      <a href="/erglace/">Erglace !</a>
+    </li>
+    <li>
+      <a href="/lafayette/">Lafayette *</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a href="/stats/">Analyseur</a>
+    </li>
+    <li>
+      <a href="/glossaire/">Glossaire</a>
+    </li>
+    <li>
+      <a href="/dactylo/">Apprendre</a>
+    </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Ergo‑L 1.0</h1>
+    
+
+  <style>
+  dt { font-weight: bold; }
+  dd p { margin: 0.2em 0; }
+  code { font-family: monospace; }
+  pre { background-color: #6684; padding: 0.5em 2em; }
+</style>
+
+<div class="keyboard">
+  <div style="width: 100%; padding-top: 34%; position: relative;">
+    <object type="image/svg+xml"
+             class="odk" 
+             data="/img/ergol.svg" 
+      style="position: absolute; top: 0; left: 0; width: 100%;"></object>
+  </div>
+
+  <form>
+    <fieldset class="layers" hidden>
+      <input type="radio" name="layers" label="Typo"  value="odk" checked
+        title="caractères obtenus par la touche « Typo » (vue simplifiée)">
+      <input type="radio" name="layers" label="Typo+Symboles"   value="mixed"
+        title="caractères obtenus par les touches « Typo » et « Symboles »">
+      <input type="radio" name="layers" label="Symboles" value="altgr"
+        title="caractères obtenus par la touche « Symboles »">
+    </fieldset>
+    <fieldset class="geometry">
+      <input type="radio" name="geometry" label="3×6"   value="3×6"
+        title="géométrie 40 % type OLKB Planck">
+      <input type="radio" name="geometry" label="4×6"   value="4×6"
+        title="géométrie 50 % type OLKB Preonic">
+      <input type="radio" name="geometry" label="TMx"   value="TMx"
+        title="géométrie 60 % type TypeMatrix">
+      <input type="radio" name="geometry" label="ANSI"  value="ANSI"
+        title="géométrie américaine">
+      <input type="radio" name="geometry" label="ISO"   value="ISO" checked
+        title="géométrie européenne">
+      <input type="radio" name="geometry" label="ISO-A" value="ISO-A"
+        title="géométrie européenne avec variante en « A »">
+    </fieldset>
+  </form>
+
+  
+    
+    <dialog>
+      <input spellcheck="false" placeholder="zone de saisie Ergo‑L" />
+      <x-keyboard src="/layouts/ergol.json"></x-keyboard>
+    </dialog>
+    
+    <nav>
+      
+      
+        <button disabled>⇪ Tester</button>
+        <a href="/stats/#/ergol//en+fr"><span>𝚺</span> Stats</a>
+        <a href="/dactylo/#ergol"><span>⌨</span> Apprendre</a>
+      
+    </nav>
+  
+</div>
+
+<h2 id="téléchargement">Téléchargement</h2>
+<dl>
+<dt><a
+href="https://github.com/Nuclear-Squid/ergol/releases/download/ergol-v1.0.0/ergol_nomade.zip">Pilotes
+nomades</a></dt>
+<dd>
+Une archive zip contenant les pilotes ne nécessitant pas de droits
+d’administrations, peuvent fonctionner depuis une clé USB. (pour tous
+les systèmes)
+</dd>
+<dt><a
+href="https://github.com/Nuclear-Squid/ergol/releases/download/ergol-v1.0.0/ergol_kbd.exe">Windows</a></dt>
+<dd>
+Exécuter l’installeur et relancer la session. La disposition de clavier
+apparaît dans la barre de langues (indicateur de la barre des tâches).
+</dd>
+<dt><a
+href="https://github.com/Nuclear-Squid/ergol/releases/download/ergol-v1.0.0/ergol.keylayout">macOS</a></dt>
+<dd>
+Enregistrer dans <code>/Library/Keyboard Layouts</code> et relancer la
+session. La disposition de clavier est disponible dans les préférences
+« Langue et Texte », onglet « Méthodes de saisie ».
+</dd>
+<dd>
+On peut aussi l’enregistrer dans <code>~/Library/Keyboard Layouts</code>
+(pour le seul utilisateur courant), mais la disposition ne sera pas
+active au login.
+</dd>
+<dd>
+Il est possible (et recommandé) d’utiliser <a
+href="https://karabiner-elements.pqrs.org">Karabiner</a> pour <a
+href="karabiner_settings.png">inverser les touches</a>
+<kbd>⌘ Command</kbd> et <kbd>⌥ Option</kbd> à droite, afin d’accéder
+plus facilement à la couche de symboles.
+</dd>
+<dt><a
+href="https://github.com/Nuclear-Squid/ergol/releases/download/ergol-v1.0.0/ergol.xkb_symbols">GNU/Linux</a></dt>
+<dd>
+Copier ce pilote dans <code>xkb/symbols/custom</code> :
+<pre>
+sudo wget -O ${XKB_CONFIG_ROOT:-/usr/share/X11/xkb}/symbols/custom \
+https://github.com/Nuclear-Squid/ergol/releases/download/ergol-v1.0.0/ergol.xkb_symbols </pre>
+</dd>
+<dd>
+La disposition de clavier est disponible dans le gestionnaire de
+préférences du bureau sous un nom générique (« custom layout »,
+« disposition personnalisée », etc.). Sous XOrg on peut aussi l’activer
+directement en ligne de commande :
+<pre>
+setxkbmap custom </pre>
+</dd>
+<dd>
+D’autres méthodes d’installation sont possibles, en passant le <a
+href="/layouts/ergol.toml">fichier source</a> à <a
+href="https://github.com/OneDeadKey/kalamine#xkalamine">XKalamine</a>.
+</dd>
+<dd>
+Remarque : avec certains bureaux (Gnome notamment), la touche morte
+<span class="odk">★</span> ne fonctionne que si Ergo‑L est défini comme
+disposition par défaut, i.e. en haut de la liste dans les préférences
+clavier.
+</dd>
+</dl>
+<h2 id="licence">Licence</h2>
+<p><a href="http://wtfpl.net/">WTFPL</a> – Do What the Fuck You Want to
+Public License.</p>
+
+
+  
+  </main>
+  <footer>
+    <small style="float: left">propulsé par <a
+href="https://onedeadkey.github.io/x-keyboard">x-keyboard</a></small>
+<nav>
+  <a href="https://github.com/Nuclear-Squid/ErgoL">GitHub</a> |
+  <a href="https://discord.gg/5xR5K3nAFX">Discord</a>
+</nav>
+
+  </footer>
+</body>
+
+</html>

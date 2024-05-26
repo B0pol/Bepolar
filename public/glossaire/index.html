@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr"
+  dir="ltr">
+
+<head>
+  <title>Glossaire | Ergo‑L</title>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1a1a1f" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f8f8" />
+<meta name="color-scheme" content="light dark">
+<meta property="og:title"        content="Ergo‑L">
+<meta property="og:type"         content="website">
+<meta property="og:url"          content="https://ergol.org">
+<meta property="og:image"        content="/ergol.png">
+<meta property="og:image:type"   content="image/png">
+<meta property="og:image:width"  content="960">
+<meta property="og:image:height" content="360">
+<meta property="og:description"  content="Une disposition de clavier ergonomique de type Colemak, optimisée pour le français, l’anglais et le code.">
+<link type="image/svg+xml"       rel="icon"    href="/favicon.svg"        sizes="any">
+<link type="application/rss+xml" rel=alternate href="/articles/index.xml" title="Ergo‑L">
+
+
+
+
+
+      <link rel="stylesheet" href="/css/theme.min.d8e898e509b45a8c42bba882505a97bda0cfab96582b68bcee8c25d55351fab9.css" integrity="sha256-2OiY5Qm0WoxCu6iCUFqXvaDPq5ZYK2i87owl1VNR&#43;rk=" crossorigin="anonymous">
+
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <div id="banner">
+  <p class="title"><a href="/">Ergo‑L</a></p>
+  <p>Ergonomie optimisée pour le français, l’anglais, le code.</p>
+</div>
+
+  </header>
+  
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Ergo‑L</a>
+        <ul>
+    <li>
+      <a href="/presentation/">Présentation</a>
+    </li>
+    <li>
+      <a href="/installation/">Installation</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a href="/alternatives/">Alternatives</a>
+        <ul>
+    <li>
+      <a href="/bepo/">Bépo ?</a>
+    </li>
+    <li>
+      <a href="/erglace/">Erglace !</a>
+    </li>
+    <li>
+      <a href="/lafayette/">Lafayette *</a>
+    </li>
+        </ul>
+    </li>
+    <li>
+      <a href="/stats/">Analyseur</a>
+    </li>
+    <li>
+      <a aria-current="page" class="active" href="/glossaire/">Glossaire</a>
+    </li>
+    <li>
+      <a href="/dactylo/">Apprendre</a>
+    </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Glossaire</h1>
+    
+
+  <p><strong>🚧 en construction 🚧</strong></p>
+<style>
+  dt + dd:has(+ dd), dd + dd { display: list-item; list-style-type: "-  "; }
+  dd p { margin: 0.7em 0; }
+  code { font-family: monospace; }
+  .footnotes { font-size: smaller; }
+  .footnotes li p { margin: 0.2em 0; }
+</style>
+<h2 id="ergonomie-optimisation">Ergonomie &amp; Optimisation</h2>
+<dl>
+<dt>SFU (“Same Finger Usage”), SFB (“Same Finger Bigram”)</dt>
+<dd>
+<p>Aussi appelé « digramme de même doigt ». Quand deux lettres
+s’enchaînent avec un même doigt, ce qui est source d’inconfort ou
+d’erreurs, notamment à haute vitesse.</p>
+</dd>
+<dt>SKU (“Same Key Usage”), SKB (“Same Key Bigram”)</dt>
+<dd>
+<p>Répétition de même touche, e.g. pour produire <code>nn</code> avec
+n’importe quelle disposition de clavier, ou <code>és</code> en
+Ergo‑L.</p>
+</dd>
+<dt>Extension</dt>
+<dd>
+<p>Quand un doigt doit atteindre une touche qui est soit sur une autre
+colonne que la position de repos, soit à une distance supérieure à une
+touche.</p>
+</dd>
+<dt>Ciseau</dt>
+<dd>
+<p>Quand un bigramme nécessite un changement de rangée
+inconfortable.</p>
+</dd>
+<dt>Roulement intérieur</dt>
+<dd>
+<p>Deux touches ou plus enchaînées sur une même main, dans le sens de
+l’auriculaire vers l’index. C’est l’enchaînement considéré comme le plus
+confortable qui soit.</p>
+</dd>
+<dt>Roulement extérieur</dt>
+<dd>
+<p>Deux touches ou plus enchaînées sur une même main, dans le sens de
+l’index vers l’auriculaire.</p>
+</dd>
+<dt>Redirection</dt>
+<dd>
+<p>Trois touches enchaînées sur une même main avec un changement de
+direction, e.g. <kbd>D</kbd><kbd>S</kbd><kbd>F</kbd> ou
+<kbd>K</kbd><kbd>J</kbd><kbd>L</kbd> en Azerty ou Qwerty.</p>
+</dd>
+<dt>Mauvaise redirection</dt>
+<dd>
+<p>Une redirection où l’index n’intervient pas. L’un des pires
+enchaînements faisables sur un clavier, sinon le pire.</p>
+</dd>
+</dl>
+<h2 id="support-logiciel">Support logiciel</h2>
+<!-- Nota : la distinction keycode/scancode échappe à beaucoup de personnes, y
+compris à des développeurs qui travaillent sur la question — comme ça a été le
+cas au sein de la talentueuse équipe de KMonad sur ce ticket Github :
+https://github.com/kmonad/kmonad/issues/111 -->
+<dl>
+<dt><span id="scan-code-def">Scan code</span></dt>
+<dd>
+<p>Données envoyées par un clavier physique à un ordinateur lorsqu’on
+appuie ou relâche une touche. Par suite aux évolutions technologiques
+(PS/2, USB, etc.), il existe plusieurs ensembles de scan codes.</p>
+</dd>
+<dd>
+<p>Souvent associé au seul code envoyé lors de la <em>pression</em>
+d’une touche, en particulier avec les scan codes « XT » ou « ensemble
+1 ». Il permet alors d’identifier la touche qui a été pressée dans un
+périphérique de saisie, au plus bas niveau de l’OS.</p>
+</dd>
+<dt><span id="key-code-def">Key code</span></dt>
+<dd>
+<p>Code identifiant une touche sur un clavier. Ce code est propre à
+chaque système d’exploitation. Ce dernier se charge de convertir les
+différentes conventions de <em>scan code</em> en <em>key code</em>,
+permettant ainsi de faire abstraction de la technologie du clavier pour
+développer des dispositions de clavier.</p>
+</dd>
+<dt><span id="point-de-code-def">Point de code</span> (<i lan="en">code
+point</i>)</dt>
+<dd>
+<p>TODO (cf. <a href="https://fr.wikipedia.org/wiki/Point_de_code">point
+de code</a> sur Wikipedia).</p>
+</dd>
+<dt><span id="modificateur-def">Modificateur</span></dt>
+<dd>
+<p>TODO (Modificateurs courants : <code>Shift</code>, <code>Caps</code>,
+<code>AltGr</code>, etc.).</p>
+</dd>
+<dt><span id="couche-def">Couche</span> (<i lang="en">layer</i>)</dt>
+<dd>
+<p>Abstraction pour pouvoir disposer plusieurs caractères sur une même
+touche.</p>
+<p>Exemple le plus courant de couches : en tapant des lettres sur la
+couche <em>alpha</em> on obtient les lettres en minuscules, en gardant
+la touche <kbd>Shift</kbd> enfoncée on obtient les lettres en
+majuscules, ce sont donc 2 couches différentes.</p>
+<p>Ce concept de couches permet de diminuer le nombre de touches
+nécessaires sur un clavier et brille particulièrement sur les petits
+claviers ergonomiques en diminuant la distance que les doigts ont à
+parcourir.</p>
+<p>Noter qu’une <a href="#touche-morte-def">touche morte</a> peut
+également être considérée comme définissant une couche, au même titre
+qu’un <a href="#modificateur-def">modificateur</a>.</p>
+<!-- TODO: liens vers les couches typo et symboles -->
+</dd>
+<dt><span id="touche-morte-def">Touche morte</span> (<i lang="en">dead
+key</i>)</dt>
+<dd>
+<p>Touche de clavier qui ne produit aucun résultat lorsqu’elle est
+enfoncée puis relâchée, mais modifie le comportement de la prochaine
+touche qui sera enfoncée. Une touche morte est généralement utilisée
+pour produire des lettres accentuées ou autres <a
+href="#diacritique-def">diacritiques</a>.</p>
+<p>Exemple : la touche <kbd>^</kbd> sur le clavier Azerty puis
+<kbd>E</kbd> donne la lettre <code>ê</code>.</p>
+</dd>
+<dt><span id="diacritique-def">Diacritique</span></dt>
+<dd>
+<p>Signe accompagnant une lettre ou un graphème pour en modifier le sens
+ou la prononciation.</p>
+<p>Exemple : la cédille pour « ç » ou les accents sur les voyelles. Plus
+de détails dans l’article <a
+href="https://fr.wikipedia.org/wiki/Diacritique">Wikipedia</a>.</p>
+</dd>
+</dl>
+<h3 id="windows">Windows</h3>
+<dl>
+<dt>AHK</dt>
+<dd>
+<p>Abréviation du logiciel <a
+href="https://www.autohotkey.com/">AutoHotKey</a> qui permet de manière
+globale de créer des scripts pour Windows. Dans le cas des dispositions
+clavier, il est utilisé pour modifier les touches envoyées par le
+clavier et ainsi créer un pilote de disposition ne necessitant pas
+d’installation.</p>
+</dd>
+<dt><a href="http://www.kbdedit.com/">KbdEdit</a></dt>
+<dd>
+<p>Logiciel qui permet de créer des pilotes Windows pour des
+dispositions clavier personnalisées. Il est beaucoup plus complet que
+MSKLC (voir ci-dessous). Contrairement à ce dernier, il est payant et
+n’est pas officiellement supporté par Microsoft.</p>
+</dd>
+<dt>KLC</dt>
+<dd>
+<p>Fichier avec extension <code>.klc</code> décrivant une disposition
+clavier pour Microsoft Keyboard Layout Creator (MSKLC).</p>
+<p>C’est un fichier source pour créer les pilotes Windows.</p>
+</dd>
+<dt>MSKLC</dt>
+<dd>
+<p>Abréviation du logiciel <a
+href="https://www.microsoft.com/en-us/download/details.aspx?id=102134">Microsoft
+Keyboard Layout Creator</a> qui permet de créer des pilotes Windows pour
+des dispositions clavier personnalisées.</p>
+<p>Il peut être utilisé de manière autonome ou par l’intermédiaire de <a
+href="https://github.com/OneDeadKey/kalamine?tab=readme-ov-file#wkalamine">Kalamine</a>,
+ce dernier corrigeant ainsi de nombreuses limitations de MSKLC.</p>
+</dd>
+<dt>Virtual Key (VK, touche virtuelle)</dt>
+<dd>
+<p>Code de touche spécifique à Windows, de plus haut niveau que le key
+code. Il est utilisé pour définir le placement des touches spéciales
+ainsi que le comportement d’une touche lorsqu’elle est utilisée dans un
+raccourci clavier.</p>
+</dd>
+</dl>
+<h3 id="macos">macOS</h3>
+<dl>
+<dt>keylayout</dt>
+<dd>
+<p>TODO</p>
+</dd>
+<dt>Karabiner</dt>
+<dd>
+<p>TODO</p>
+</dd>
+</dl>
+<h3 id="linux">Linux</h3>
+<h4
+id="explication-simplifée-du-processus-appui-sur-une-touche-production-de-caractère">Explication
+simplifée du processus : appui sur une touche → production de
+caractère</h4>
+<ol type="1">
+<li>Le clavier produit un <a href="#scan-code-def">scan code</a>.</li>
+<li>L’<abbr title="Operating System">OS</abbr> transforme le <a
+href="#scan-code-def">scan code</a> en <a
+href="#keycode-xkb-def">keycode</a>.</li>
+<li>Le <a href="#keycode-xkb-def">keycode</a> est transformé en <a
+href="#keysym-def">keysym</a> selon le <a
+href="#group-xkb-def">groupe</a> les <a
+href="#modificateur-def">modificateurs</a> actifs, ces derniers
+déterminant la <a href="#couche-def">couche</a> active.</li>
+<li>La <a href="#keysym-def">keysym</a> est transformée en caractère(s)
+par la méthode de saisie (<a href="#compose-def">Compose</a> par défaut)
+si active, sinon en utilisant la table de conversion standard de
+XKB.</li>
+</ol>
+<h4 id="environnement">Environnement</h4>
+<dl>
+<dt><a href="https://fr.wikipedia.org/wiki/X_Window_System">X11</a></dt>
+<dd>
+<p>X est un protocole de système de fenêtrage. <a
+href="https://fr.wikipedia.org/wiki/X_Window_System">X11</a> en est la
+onzième version majeure.</p>
+</dd>
+<dt><a href="https://fr.wikipedia.org/wiki/X.Org">X.Org</a></dt>
+<dd>
+<p>Le principal <a
+href="https://fr.wikipedia.org/wiki/X_Window_System">serveur X</a>
+utilisé sur Linux.</p>
+</dd>
+<dt>Wayland</dt>
+<dd>
+<p>Un protocole de système de fenêtrage, destiné à remplacer X11 qui
+n’est plus maintenu. Bien qu’en développement depuis 2008, son
+implémentation dans les environnements de bureau majeurs n’a commencé à
+être suffisante que dans les années 2020.</p>
+</dd>
+<dt>XKB (<em>X</em> <em>K</em>eyboard <em>E</em>xtension)</dt>
+<dd>
+<p>Un <strong><a
+href="https://www.x.org/releases/current/doc/kbproto/xkbproto.html">protocole</a></strong>
+défini comme extension de X11 et dédié à la gestion des claviers.</p>
+</dd>
+<dd>
+<p>C’est aussi utilisé pour le <a
+href="https://xkbcommon.org/doc/current/keymap-text-format-v1.html"><strong>format</strong>
+texte de configuration</a> des dispositions clavier.</p>
+</dd>
+<dd>
+<p>Par abus de langage c’est aussi la <strong>base de données</strong>
+des configurations clavier, <a
+href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config"><code>xkeyboard-config</code></a>.</p>
+</dd>
+<dt><span id="compose-def">Compose</span></dt>
+<dd>
+<p>Une <strong>méthode de saisie</strong> (<i lang="en">input method</i>
+ou IM). C’est notamment ce qui permet aux touches mortes système (autres
+que <code>1dk</code>) de fonctionner. Elle porte ce nom car elle
+<em>compose</em> – entendre : combine – plusieurs <a
+href="#keysym-def">keysyms</a> en un<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a> nouveau keysym.</p>
+<!-- XXX le diacritique combinant est mal supporté avec certaines polices,
+dont DejaVu Sans Mono : `◌́e` est affiché « é » et non «  ◌́e` ». -->
+<p>Exemples : la séquence <code>◌́e</code> est transformée en
+<code>é</code>, <code>n~</code> en <code>ñ</code>, <code>+-</code> en
+<code>±</code> et <code>&lt;3</code> en <code>♥</code>.</p>
+</dd>
+<dd>
+<p>Une <strong><a
+href="https://fr.wikipedia.org/wiki/Touche_de_composition">touche</a></strong>
+qui active la <em>méthode de saisie</em> Compose pour les touches
+pressées à la suite. Cette touche n’est pas présente sur les claviers
+physiques modernes, mais elle est peut être configurée dans l’OS avec
+les options de clavier.</p>
+</dd>
+<dd>
+<p>La <strong><a href="#keysym-def">keysym</a></strong>
+<code>&lt;Multi_key&gt;</code>, qui est placée sur la <em>touche</em>
+Compose.</p>
+</dd>
+<dt>XCompose</dt>
+<dd>
+<p>Une <strong><a
+href="https://linux.die.net/man/3/xcompose">spécification</a></strong>
+de Compose pour les systèmes basés sur X11 et Wayland. Il existe
+plusieurs implémentations: <code>XIM</code> (référence),
+<code>xkbcommon</code>, <code>Gtk</code>, <code>Qt</code>,
+<code>ibus</code>, etc. Noter qu’il existe des différences entre ces
+implémentations.</p>
+</dd>
+<dd>
+<p>Un <strong>format</strong> pour configuer la méthode de saisie
+XCompose.</p>
+</dd>
+<dd>
+<p>Les <strong>fichiers</strong> de configuration correspondants. En
+particulier :</p>
+<ul>
+<li><code>/usr/share/X11/locale/**/Compose</code> : les fichiers
+système, organisés par locale.</li>
+<li><code>~/.XCompose</code> : le fichier utilisateur par défaut.</li>
+</ul>
+</dd>
+</dl>
+<!-- notes de bas de page -->
+<h4 id="xkb">XKB</h4>
+<dl>
+<dt><span id="keycode-xkb-def">Keycode</span></dt>
+<dd>
+<p>Code identifiant une touche physique sur un clavier. Le code
+<em>brut</em> (raw keycode) est le code numérique issu du traitement bas
+niveau par le noyau, alors que le code <em>symbolique</em> est le nom
+donné dans les fichiers XKB pour faciliter la configuration haut-niveau
+du clavier. On distinguera le code brut du <em>noyau</em> de celui de
+XKB, ce dernier étant obtenu en ajoutant 8 au premier.</p>
+<p>Exemple : sur un clavier QWERTY, le code brut noyau de la touche
+<code>Q</code> est <code>16</code><a href="#fn2" class="footnote-ref"
+id="fnref2" role="doc-noteref"><sup>2</sup></a>, le code brut sur XKB
+est <code>16 + 8 = 24</code> et son code symbolique est
+<code>AD01</code><a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a>.</p>
+<p>Noter qu’un clavier QWERTY et un clavier AZERTY produisent
+habituellement des keycodes identiques pour les touches situées au même
+emplacement : ainsi la touche imprimée <code>Q</code> sur le clavier
+QWERTY produira le même keycode que la touche imprimée <code>A</code>
+sur un clavier imprimé AZERTY. En effet, c’est la configuration du
+clavier dans XKB et non le clavier lui-même qui définit la
+correspondance touche / <a href="#keysym-def">keysym</a>.</p>
+</dd>
+<dt><span id="keysym-def">Keysym</span></dt>
+<dd>
+<p>Code numérique identifiant un symbole sur le <em>capuchon</em> d’une
+touche. Ce mot vient de l’anglais « <i lang="en">key symbol</i> ». Les
+keysyms sont également associées à des noms anglais pour faciliter leur
+utilisation. Exemples : <code>a</code>, <code>agrave</code> pour « à »,
+<code>Shift_L</code> pour la touche majuscule à gauche, etc.</p>
+<p>À la différence des keycodes, les keysyms ne sont pas utilisés pour
+<em>identifier</em> les touches physiques mais pour configurer le
+<em>résultat</em> obtenu en pressant une touche. Ainsi, la
+<em>touche</em> <kbd>Q</kbd> d’un clavier imprimé QWERTY peut être
+configurée pour produire le<a href="#fn4" class="footnote-ref"
+id="fnref4" role="doc-noteref"><sup>4</sup></a> keysym <code>q</code> ou
+<code>a</code> sur la couche de base, et les keysyms <code>Q</code> ou
+<code>A</code> sur la couche masjcule, etc.</p>
+</dd>
+<dd>
+<p>Il existe différents types de keysyms :</p>
+<ul>
+<li><em>caractère :</em> <code>a</code> et <code>A</code> pour les
+scripts latins, <code>gamma</code> « γ » et <code>GAMMA</code> « Γ »
+pour le grec, etc.</li>
+<li><em>touche morte :</em> <code>dead_grave</code> et
+<code>dead_diaeresis</code>, qui correspondent respectivement à l’accent
+grave et au tréma. Une touche morte est une touche spéciale car elle ne
+génère pas de caractère, mais modifie le caractère de la touche qui est
+utilisée directement après elle. Ce comportement nécessite la
+fonctionnalité « Compose ».</li>
+<li><em>modificateur :</em> une touche qui modifie l’effet des autres
+touches : par exemple <code>Shift_L</code>, <code>Control_R</code>,
+<code>Caps_Lock</code>. Les modificateurs utilisent un mécanisme
+différent des touches mortes et servent à accéder aux différentes
+couches d’une disposition, ainsi qu’à définir des raccourcis
+clavier.</li>
+<li><em>système :</em> actions spéciales non comprises ci-dessus :
+flèche <code>Left</code>, <code>Pause</code>, <code>Escape</code>,
+<code>F1</code>, etc.</li>
+</ul>
+</dd>
+<dt>Key type</dt>
+<dd>
+<p>TODO</p>
+</dd>
+<dt>Key Action</dt>
+<dd>
+<p>TODO</p>
+</dd>
+<dt><span id="group-xkb-def">Groupe</span></dt>
+<dd>
+<p>TODO</p>
+</dd>
+<dd>
+<p>Également appelé abusivement <em>disposition</em>
+(<i lang="en">layout</i>). TODO: développer.</p>
+</dd>
+<dt>Keymap</dt>
+<dd>
+<p>TODO</p>
+</dd>
+</dl>
+<!-- notes de bas de page -->
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Le cas le plus fréquent est <em>un</em> keysym, mais il
+est possible d’en produire plusieurs. C’est indispensable pour certains
+caractères qui nécessitent plusieurs <a href="#point-de-code-def">points
+de code</a>, comme « ė̄ » (<code>U+0117 + U+0304</code>), mais aussi
+👩🏿‍🚀👩🏾‍🚀👩🏽‍🚀👩🏼‍🚀👩🏻‍🚀👩‍🚀, qui requiert au moins deux <a
+href="#point-de-code-def">points de code</a> pour chaque emoji.<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Correspond à <code>KEY_Q</code> dans le fichier
+d’en-tête <a
+href="https://github.com/torvalds/linux/blob/90d35da658da8cff0d4ecbb5113f5fac9d00eb72/include/uapi/linux/input-event-codes.h#L91"><code>input-event-code.h</code></a>.<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Les codes symboliques sont suivent la norme <a
+href="https://en.wikipedia.org/wiki/ISO/IEC_9995#ISO/IEC_9995-2">ISO/IEC
+9995-2</a> pour les touches alpha-numériques.<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>On devrait dire <em>un</em> keysym car c’est un
+<em>symbole</em> de touche, mais <em>une</em> keysym sonne peut-être
+mieux.<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+
+  
+  </main>
+  <footer>
+    <small style="float: left">
+</small>
+<nav>
+  <a href="https://github.com/Nuclear-Squid/ErgoL">GitHub</a> |
+  <a href="https://discord.gg/5xR5K3nAFX">Discord</a>
+</nav>
+
+  </footer>
+</body>
+
+</html>
