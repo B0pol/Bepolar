@@ -4,9 +4,9 @@ locale: fr
 variant: bepergol
 description: Français (Bépergol)
 url: https://github.com/B0pol/bepolar
-author : B0pol
+author : Cèd’C + B0pol
 geometry: ERGO
-version: 0.7.0
+version: 0.7.1
 
 base: |
   ╭╌╌╌╌╌┰─────┬─────┬─────┬─────┬─────┰─────┬─────┬─────┬─────┬─────┰╌╌╌╌╌┬╌╌╌╌╌╮
